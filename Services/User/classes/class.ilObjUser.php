@@ -17,7 +17,7 @@ require_once './Services/User/exceptions/class.ilUserException.php';
 * @author	Sascha Hofmann <saschahofmann@gmx.de>
 * @author	Stefan Meyer <meyer@leifos.com>
 * @author	Peter Gabriel <pgabriel@databay.de>
-* @version	$Id: class.ilObjUser.php 50163 2014-05-19 15:21:19Z mjansen $
+* @version	$Id: class.ilObjUser.php 55137 2014-11-14 11:34:39Z akill $
 *
 * @ingroup ServicesUser
 */
@@ -3536,7 +3536,7 @@ class ilObjUser extends ilObject
 				$obj["title"] = ilObject::_lookupTitle($obj["item_id"]);
 			}
 			$objects[] = array ("id" => $obj["item_id"],
-				"type" => $obj["type"], "title" => $obj["title"]);
+				"type" => $obj["type"], "title" => $obj["title"], "insert_time" => $obj["insert_time"]);
 		}
 		return $objects;
 	}

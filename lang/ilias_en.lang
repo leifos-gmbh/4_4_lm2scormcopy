@@ -5,7 +5,7 @@
 * @module		language file English
 * @modulegroup	language
 * @author 		Matthias Kunkel <mkunkel@me.com>
-* @version		$Id: ilias_en.lang 54628 2014-10-28 15:18:07Z bheyser $
+* @version		$Id: ilias_en.lang 55169 2014-11-14 15:10:58Z akill $
 */
 // The language file starts beyond the HTML-comment below. DO NOT modify this line!
 // To edit your language file with a spreadsheet (i.e. Excel or StarCalc) remove all lines
@@ -14326,3 +14326,8 @@ mail#:#link_check_reason#:#You recife this mail because you enabled the notifica
 mail#:#link_check_affected_links#:#Affected Links
 mail#:#link_check_perma_link#:#Permanent Link
 news#:#news_inactive_private_feed_info#:#Your private news feed is deactivated. Please set a password in the settings.
+content#:#cont_assign_to_parent#:#Assign to Parent
+content#:#cont_type_not_allowed#:#Content type not allowed at this position
+content#:#sahs_insert_st_from_clip#:#Import Chapters from ILIAS Learning Module
+content#:#sahs_insert_st_from_clip_inside_chap#:#Import Chapters from ILIAS Learning Module (inside chapter)
+content#:#sahs_insert_pg_from_clip#:#Import Pages from ILIAS Learning Module

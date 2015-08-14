@@ -5,7 +5,7 @@
 * @module			language file German
 * @modulegroup		language
 * @author			Matthias Kunkel <mkunkel@me.com>
-* @version			$Id: ilias_de.lang 54628 2014-10-28 15:18:07Z bheyser $
+* @version			$Id: ilias_de.lang 55169 2014-11-14 15:10:58Z akill $
 */
 // The language file starts beyond the HTML-comment below. DO NOT modify this line!
 // To edit your language file with a spreadsheet (i.e. Excel or StarCalc) remove all lines
@@ -14326,3 +14326,8 @@ mail#:#link_check_reason#:#Sie erhalten diese Benachrichtigung, da Sie die Benac
 mail#:#link_check_affected_links#:#Betroffene Links
 mail#:#link_check_perma_link#:#Permanent Link
 news#:#news_inactive_private_feed_info#:#Ihr privater Newsfeed ist deaktiviert. Vergeben Sie ein Passwort in den Einstellungen.
+content#:#cont_assign_to_parent#:#Dem übergordneten Knoten zuordnen
+content#:#cont_type_not_allowed#:#Dieses Element ist an dieser Stelle nicht erlaubt
+content#:#sahs_insert_st_from_clip#:#Kapitel aus ILIAS Lernmodul importieren
+content#:#sahs_insert_st_from_clip_inside_chap#:#Kapitel aus ILIAS Lernmodul importieren (innerhalb eines Kapitels)
+content#:#sahs_insert_pg_from_clip#:#Seiten aus ILIAS Lernmodul importieren
